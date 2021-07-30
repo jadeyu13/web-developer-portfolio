@@ -9,8 +9,6 @@ const Error = () => {
         flexDirection: "column"}}>
         <h1>Error 404. Page Not Found</h1>
 
-
-
         <Link to="/" style={{backgroundColor: "rgba(1, 84, 69, 0.67)",
     padding: 10, color: "white"}}> Homepage </Link>
         </section>
