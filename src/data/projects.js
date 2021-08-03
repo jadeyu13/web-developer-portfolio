@@ -19,10 +19,9 @@ export const projects = [
     //},//
     {
         id: uuidv4(),
-        title: "Project Three",
-        desc: "lorem ipsum dolor sit amet consectetur adipiscing elit",
+        title: "Project One",
+        desc: "Todo List w/ React.js",
         github: "https://github.com/jadeyu13",
-        demo: "#",
         image: "./images/todo-list.png",
     },
    // {

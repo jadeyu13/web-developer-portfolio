@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { projects } from '../data/projects'
-import { FaGithub, FaVideo } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
 // eslint-disable-next-line
@@ -11,14 +11,15 @@ const Projects = () => {
             <h1> Projects Page</h1>
             <div className="cards">
 
-              {cards.map(({id, title, desc, github, demo, image}) => (
+              {cards.map(({id, title, desc,image}) => (
               <article key={id}>
               <img src={image} alt={title} />
                 <h4>{title}</h4>
                   <p>{desc}</p>
                   <ul>
-                  <li><a className="github" href={github} target="_blank" rel="noopenner noreferrer"> <FaGithub style={{marginRight: 5}} /> GitHub</a></li>
-                  <li><a className="demo"  href={demo} target="_blank" rel="noopenner noreferrer"><FaVideo style={{marginRight: 5}} /> Demo</a></li>
+                  <li><a className="github" href="https://github.com/jadeyu13/todo-list-app" target="_blank" rel="noopenner noreferrer">
+                    <FaGithub style={{marginRight: 5}} />Code</a></li>
+                  
                   </ul>
               </article>
               ))}
