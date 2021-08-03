@@ -13,7 +13,7 @@ const Homepage = () => {
                 <a href="https://www.linkedin.com/in/jade-yu-a1b312217/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
             </li>
             <li>
-                <a href="https://github.com/jadeyu13" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                <a href="" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
             </li>
             </ul>
 
