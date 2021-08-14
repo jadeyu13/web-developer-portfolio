@@ -2,13 +2,13 @@ import { v4 as uuidv4} from "uuid"
 
 export const projects = [
 
-    //{
-        //id: uuidv4(),
-        //title: "Project One",
-        //desc: "Todo List",
-        //github: "https://jadeyu13.github.io/todo-list-app/",
-        //image: "./images/project-1.jpeg",
-    ////},
+    {
+        id: uuidv4(),
+        title: "Project One",
+        desc: "Build Chat Room w/ React.jx, Firebase, Chat Engine",
+        github: "",
+        image: "./images/chatroom",
+    },
 //{
        // id: uuidv4(),
        // title: "Project Two",
@@ -17,13 +17,13 @@ export const projects = [
         //demo: "#",
         //image: "./images/project-2.jpeg",
     //},//
-    {
-        id: uuidv4(),
-        title: "Project One",
-        desc: "Todo List w/ React.js",
-        github: "https://github.com/jadeyu13",
-        image: "./images/todo-list.png",
-    },
+    //{
+       // id: uuidv4(),
+        //title: "Project One",
+        //desc: "Build Chat Room w/ React.jx, Firebase, Chat Engine",
+        //github: "",
+        //image: "./images/chatroom.jpg",
+    //},
    // {
        //// id: uuidv4(),
        // title: "Project Four",
